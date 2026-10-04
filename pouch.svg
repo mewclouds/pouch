@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Pouch: a smiling purple drawstring pouch</title>
+  <defs>
+    <linearGradient id="fabric" x1=".15" y1="0" x2=".85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#c4a1ff"/>
+      <stop offset=".5" stop-color="#a777ee"/>
+      <stop offset="1" stop-color="#7145c4"/>
+    </linearGradient>
+    <linearGradient id="rim" x2="0" y2="1">
+      <stop stop-color="#e7d7ff"/>
+      <stop offset="1" stop-color="#ba94f0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="231" rx="76" ry="9" fill="#7145c4" opacity=".12"/>
+  <path d="M83 72 70 48Q83 36 99 45L114 38 129 45 145 37 161 45Q177 37 186 49L174 73Z"
+        fill="url(#rim)" stroke="#654098" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M83 74C80 94 51 112 48 157 44 207 76 230 128 230S212 207 208 157C205 112 176 94 173 74Z"
+        fill="url(#fabric)" stroke="#654098" stroke-width="5"/>
+  <path d="M78 76Q128 91 178 76" fill="none" stroke="#654098" stroke-width="7" stroke-linecap="round"/>
+  <path d="M78 77C48 74 28 94 42 109 54 120 70 99 66 94M177 78C200 89 216 115 203 129"
+        fill="none" stroke="#654098" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="202" cy="133" r="6" fill="#e7d7ff" stroke="#654098" stroke-width="4"/>
+  <path d="M90 97Q78 112 73 131" fill="none" stroke="#e7d7ff" stroke-width="7" stroke-linecap="round" opacity=".65"/>
+  <ellipse cx="99" cy="156" rx="5" ry="7" fill="#44296c"/>
+  <ellipse cx="157" cy="156" rx="5" ry="7" fill="#44296c"/>
+  <path d="M116 163Q128 177 140 163" fill="none" stroke="#44296c" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="84" cy="170" rx="10" ry="5" fill="#f4bddc" opacity=".8"/>
+  <ellipse cx="172" cy="170" rx="10" ry="5" fill="#f4bddc" opacity=".8"/>
+  <path d="m137 105 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z" fill="#fff0c4"/>
+</svg>
